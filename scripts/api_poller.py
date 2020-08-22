@@ -167,8 +167,8 @@ BASE_SERIES = {
         'calories': None,  # dateTime, value
         'caloriesBMR': None,  # dateTime, value
         'distance': None,  # dateTime, value
-        'elevation': None,  # dateTime, value
-        'floors': None,  # dateTime, value
+#        'elevation': None,  # dateTime, value
+#        'floors': None,  # dateTime, value
         'heart': {
             # https://dev.fitbit.com/build/reference/web-api/heart-rate/
             'key_series': 'restingHeartRate',
@@ -184,8 +184,8 @@ BASE_SERIES = {
         'activityCalories',  # dateTime, value
         'calories',  # dateTime, value
         'distance',  # dateTime, value
-        'elevation',  # dateTime, value
-        'floors',  # dateTime, value
+#        'elevation',  # dateTime, value
+#        'floors',  # dateTime, value
         'minutesFairlyActive',  # dateTime, value
         'minutesLightlyActive',  # dateTime, value
         'minutesSedentary',  # dateTime, value
@@ -209,10 +209,10 @@ BASE_SERIES = {
             'transform': transform_body_log_weight_datapoint
         }
     },
-    'foods_log': [
-        'caloriesIn',
-        'water'
-    ],
+#    'foods_log': [
+#        'caloriesIn',
+#        'water'
+#    ],
     'sleep': {
         'sleep': {
             'key_series': 'efficiency',
