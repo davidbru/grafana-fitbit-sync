@@ -1,0 +1,10 @@
+[Unit]
+Description=Fitbit Data Import
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/plex/Documents/Scripts/fitbit/scripts/api_poller-CLI.sh > /tmp/fitbit-log.txt 2>&1
+
+[Install]
+WantedBy=multi-user.target
